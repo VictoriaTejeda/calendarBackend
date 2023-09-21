@@ -83,14 +83,6 @@ const actualizarEvento = async(req, res = response) => {
             msg: 'hable con el administrador'
         });
     }
-
-
-    res.status(201).json({
-        ok:true,
-        eventoId
-    });
-
-
 }
 
 const eliminarEvento = async(req, res = response) => {
